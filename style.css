@@ -63,3 +63,24 @@ footer {
   height: 50px;
   background-color: #aaaaaa;
 }
+
+@media screen and (max-width: 768px) {
+  main {
+    display: block;
+    width: 100%;
+  }
+
+  .contents {
+    width: 90%;
+    margin: 0 auto 20px;
+  }
+  
+  .contents:last-child {
+    margin-bottom: 0;
+    margin-right: 5%;
+  }
+
+  .image {
+    height: 150px;
+  }
+}
